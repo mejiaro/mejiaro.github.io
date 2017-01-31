@@ -18,6 +18,23 @@
  * limitations under the License.
  */
 
+.mdl-card__media img {
+  width: 100%;
+  height: 100%;
+}
+
+.mdl-grid.center-items {
+  justify-content: center;
+}
+
+.mdl-layout__tab-bar {
+  justify-content: center;
+}
+
+.mdl-layout--large-screen-only {
+  justify-content: center;
+}
+
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;

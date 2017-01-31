@@ -1,0 +1,16 @@
+<div class="mdl-grid center-items">
+  <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">{{ card.title }}</h2>
+    </div>
+    <div class="mdl-card__media">
+      <a href="#"> <img class="article-image" src="{{ site.data.global.url }}/images/{{ card.image }}" alt=""></a>
+    </div> 
+    <div class="mdl-card__supporting-text">
+      <p align="justify"> {{ card. description }}</p>
+    </div>
+    <div class="mdl-card__actions">
+      <a href="{{ card.link }}" target="_blank" class="mdl-button">Visit</a>
+    </div>
+  </div>
+</div>

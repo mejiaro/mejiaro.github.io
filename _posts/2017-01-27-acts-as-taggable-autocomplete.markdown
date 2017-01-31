@@ -2,6 +2,8 @@
 layout: inner
 title:  "Acts as Taggable On with autocomplete"
 date:   2017-01-27 16:38:44 -0600
+icon: loyalty
+description: "The acts-as-taggable-on gem provides easy to setup and great ux for tagging anytype of object when paired with the jquery-autocomplete-rails gem."
 ---
 
 <div class="">

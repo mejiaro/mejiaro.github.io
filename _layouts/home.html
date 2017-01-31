@@ -66,9 +66,16 @@
     {% include header.html %}
 
       <main class="mdl-layout__content">
-          <div>
-            {{ content }}
+          <div class="mdl-layout__tab-panel is-active" id="home">
+            {% for post in site.posts %}
+              {% include tile.html %}
+            {% endfor %}
           </div>
+           <div class="mdl-layout__tab-panel" id="portfolio">
+              {% for card in site.cards %}
+                {% include card.html %}
+              {% endfor %}
+           </div>            
       </main>
                     
     </div>
