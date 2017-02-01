@@ -6,24 +6,23 @@ icon: loyalty
 description: "The acts-as-taggable-on gem provides easy to setup and great ux for tagging anytype of object when paired with the rails-jquery-autocomplete gem."
 ---
 
-    	<p>I'd worked with the acts-as-taggable gem before, but a couple of days ago I had to integrate it with the rails-jquery-autocomplete gem. Here are the steps I followed.</p>
+<p>I'd worked with the acts-as-taggable gem before, but a couple of days ago I had to integrate it with the rails-jquery-autocomplete gem. Here are the steps I followed.</p>
 
-      <h5>Add the necessary gems in the Gemfile:</h5>
-      <p>
-      {% highlight ruby %}
+<h5>Add the necessary gems in the Gemfile:</h5>
+<p>
+{% highlight ruby %}
 
   gem 'acts-as-taggable-on'
   gem 'jquery-ui-rails'
   gem 'rails-jquery-autocomplete'
 
-      {% endhighlight %}
+  {% endhighlight %}
         
-      </p>
-      
-      
-      <h5>Run bundle install and the necessary migrations</h5>
+</p>
 
-        {% highlight ruby%}
+<h5>Run bundle install and the necessary migrations</h5>
+
+{% highlight ruby%}
 
   bundle install
   rake acts_as_taggable_on_engine:install:migrations
@@ -31,7 +30,7 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
 
         {% endhighlight %}
 
-      <h5>Setup autocomplete</h5>
+<h5>Setup autocomplete</h5>
 
   {% highlight ruby %}
 
@@ -52,7 +51,7 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
   end
         {% endhighlight %}
 
-        <p>In your config/routes.rb file you also need to add: </p>
+<p>In your config/routes.rb file you also need to add: </p>
 
         {% highlight ruby %}
   resources :fruits do
@@ -60,7 +59,7 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
   end
         {% endhighlight %}
 
-        <p>Depending on the version of jquery-ui-rails you have need to add either</p>
+<p>Depending on the version of jquery-ui-rails you have need to add either</p>
 
         {% highlight javascript %}
   //= require jquery-ui/autocomplete
