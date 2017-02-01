@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Home
 ---
 <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
   <div class="mdl-layout--large-screen-only mdl-layout__header-row">
