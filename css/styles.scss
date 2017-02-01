@@ -17,10 +17,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+ .mdl-card__media {
+    background-color:transparent;
+}
 
 .mdl-card__media img {
-  width: 100%;
+  width: 75%;
   height: 100%;
+  padding-left: 12%;
 }
 
 .mdl-grid.center-items {
