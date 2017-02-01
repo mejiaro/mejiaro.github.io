@@ -6,9 +6,6 @@ icon: loyalty
 description: "The acts-as-taggable-on gem provides easy to setup and great ux for tagging anytype of object when paired with the rails-jquery-autocomplete gem."
 ---
 
-<div class="">
-  <section class="section--center mdl-grid mdl-grid--no-spacing">
-    <div class="mdl-cell mdl-cell--12-col">
     	<p>I'd worked with the acts-as-taggable gem before, but a couple of days ago I had to integrate it with the rails-jquery-autocomplete gem. Here are the steps I followed.</p>
 
       <h5>Add the necessary gems in the Gemfile:</h5>
@@ -94,6 +91,3 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
 
         <a href="https://github.com/mbleigh/acts-as-taggable-on">acts-as-taggable-on</a><br>
         <a href="https://github.com/bigtunacan/rails-jquery-autocomplete">rails-jquery-autocomplete</a>
-    </div>
-  </section>
-</div>
