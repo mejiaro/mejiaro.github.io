@@ -16,13 +16,12 @@ layout: home
     <a href="/" class="mdl-layout__tab is-active">Articles</a>
     <a href="/portfolio" class="mdl-layout__tab">Portfolio</a>
     <a href="/contact" class="mdl-layout__tab">Contact</a>
-
   </div>
 </header>
 <main class="mdl-layout__content">
-          <div class="mdl-layout__tab-panel is-active" id="home">
-            {% for post in site.posts %}
-              {% include tile.html %}
-            {% endfor %}
-          </div>        
+	<div class="mdl-layout__tab-panel is-active" id="home">
+    {% for post in site.posts %}
+      {% include tile.html %}
+    {% endfor %}
+  </div>        
 </main>

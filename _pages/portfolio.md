@@ -15,7 +15,6 @@ permalink: /portfolio
     <a href="/" class="mdl-layout__tab">Articles</a>
     <a href="#portfolio" class="mdl-layout__tab is-active">Portfolio</a>
     <a href="/contact" class="mdl-layout__tab">Contact</a>
-
   </div>
 </header>
 <main class="mdl-layout__content">
