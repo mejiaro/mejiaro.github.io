@@ -16,12 +16,17 @@
   limitations under the License
 -->
 <html lang="en">
-  {% include head.html%}
-
+  {% include head.html %}
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    {{ content }}
+    {% include articles-header.html %}
+
+      <main class="mdl-layout__content">
+          <div class="mdl-layout__tab-panel is-active" id="overview">
+            {{ content }}
+          </div>
+      </main>
                     
     </div>
     {% include footer.html %}
