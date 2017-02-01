@@ -71,9 +71,9 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
   //= require jquery-ui/widgets/autocomplete
         {% endhighlight %}
 
-        <p>for versions higher than that. Run bundle show to know the versions of the gems you're using.</p>
+<p>for versions higher than that. Run bundle show to know the versions of the gems you're using.</p>
 
-        <p>Now, in the _form.html.erb file of the model that needs the autocomplete add: </p>
+<p>Now, in the _form.html.erb file of the model that needs the autocomplete add: </p>
         {% highlight ruby %}
   <%= f.autocomplete_field :trait_list, autocomplete_trait_name_fruits_path, 
                             :value => f.object.trait_list.to_s, 
@@ -82,11 +82,11 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
                             :multiple => true %>
         {% endhighlight %}
 
-        <p>In the code above I've added a few extra parameters, multiple: true makes it so the field accepts more than one trait for the fruit, data-delimieter means that each of the traits will be split by a coma and a space, and the :value param allows the field to show the traits that fruit already has, if any. </p>
+<p>In the code above I've added a few extra parameters, multiple: true makes it so the field accepts more than one trait for the fruit, data-delimieter means that each of the traits will be split by a coma and a space, and the :value param allows the field to show the traits that fruit already has, if any. </p>
 
-        <p>It's simple enough, though I had some problems because the front-end framework I was using had an autocomplete of its own, and it was overwriting the one I installed through the gem.</p>
+<p>It's simple enough, though I had some problems because the front-end framework I was using had an autocomplete of its own, and it was overwriting the one I installed through the gem.</p>
 
-        <p>If you need more info on each of the gems here's a link to their respective documentation: </p>
+<p>If you need more info on each of the gems here's a link to their respective documentation: </p>
 
-        <a href="https://github.com/mbleigh/acts-as-taggable-on">acts-as-taggable-on</a><br>
-        <a href="https://github.com/bigtunacan/rails-jquery-autocomplete">rails-jquery-autocomplete</a>
+<a href="https://github.com/mbleigh/acts-as-taggable-on">acts-as-taggable-on</a><br>
+<a href="https://github.com/bigtunacan/rails-jquery-autocomplete">rails-jquery-autocomplete</a>
