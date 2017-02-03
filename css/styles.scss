@@ -17,8 +17,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- .mdl-card__media {
-    background-color:transparent;
+
+.mdl-card__media {
+  background-color:transparent;
 }
 
 .mdl-card__media img {
@@ -75,7 +76,7 @@ html, body {
   line-height: 64px;
 }
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
-  background-color: white;
+  
   height: 4px;
 }
 .mdl-demo main > .mdl-layout__tab-panel {
@@ -156,7 +157,7 @@ html, body {
   min-height: 200px;
 }
 .mdl-demo section > header > .material-icons {
-  font-size: 3rem;
+  font-size: 6rem;
 }
 .mdl-demo section > button {
   position: absolute;
