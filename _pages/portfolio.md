@@ -22,5 +22,5 @@ permalink: /portfolio
       {% for card in site.cards %}
         {% include card.html %}
       {% endfor %}
-   </div>            
+   </div>           
 </main>
