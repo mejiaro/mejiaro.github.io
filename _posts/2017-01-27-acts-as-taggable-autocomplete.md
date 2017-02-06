@@ -2,7 +2,7 @@
 layout: articles
 title:  "Acts as Taggable On with autocomplete"
 date:   2017-01-27 16:38:44 -0600
-icon: loyalty
+icon: fa-tags
 description: "The acts-as-taggable-on gem provides easy to setup and great ux for tagging anytype of object when paired with the rails-jquery-autocomplete gem."
 ---
 
@@ -65,7 +65,7 @@ description: "The acts-as-taggable-on gem provides easy to setup and great ux fo
   //= require jquery-ui/autocomplete
         {% endhighlight %}
 
-        <p>for versions <= 5.0.5 or </p>
+<p>for versions <= 5.0.5 or </p>
 
         {% highlight javascript %}
   //= require jquery-ui/widgets/autocomplete

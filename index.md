@@ -14,9 +14,9 @@ title: Home
   <div class="mdl-layout--large-screen-only mdl-layout__header-row">
   </div>
   <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+    <a href="/about" class="mdl-layout__tab">About</a>
+    <a href="/portfolio" class="mdl-layout__tab">Portfolio</a>    
     <a href="/" class="mdl-layout__tab is-active">Articles</a>
-    <a href="/portfolio" class="mdl-layout__tab">Portfolio</a>
-    <a href="/contact" class="mdl-layout__tab">Contact</a>
   </div>
 </header>
 <main class="mdl-layout__content">

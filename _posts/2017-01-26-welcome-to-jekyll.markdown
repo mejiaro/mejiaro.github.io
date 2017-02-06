@@ -2,7 +2,7 @@
 layout: articles
 title:  "Jekyll"
 date:   2017-01-25 17:20:44 -0600
-icon: code
+icon:  fa-code
 description: 'I just started using Jekyll, in fact this site is built with it.'
 ---
 <div align="center">
