@@ -1,8 +1,14 @@
 <footer class="mdl-mini-footer">
-  <div class="mdl-mini-footer__right-section">
-    
-    <ul class="mdl-mini-footer__link-list">
-      <li><i class="fa fa-creative-commons"></i>  {{ site.time | date: '%Y' }}</li>
-    </ul>
+	<div class="mdl-mini-footer__left-section">
+		<div class="mdl-logo">
+			<div class="mdl-layout--small-screen-only">
+	  		<img src="{{ site.data.global.url }}/images/logo.png" style="width: 85px;">
+	  	</div>
+	  </div>
+  </div>
+  <div class="mdl-mini-footer__right-section">    
+  	<div class="mdl-logo">
+    	<i class="fa fa-creative-commons"></i>  {{ site.time | date: '%Y' }}
+  	</div>
   </div>
 </footer>
